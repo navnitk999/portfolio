@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42cb72e238.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>NAVNIT</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <br><span>Navnit</span> Kumar</h1>
+            </div>
+        </div>
+      <!-------------about-------------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="nk.jpg">
+                
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1> 
+                    <p>
+                        To secure a challenging position as a Computer Science and Engineering,
+                         where I can utilize my technical skills and contribute to the growth of the organization.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                            <li><span>programming</span><br>c<br>java<br>python<br>html,css,js</li>
+                        </ul></div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>2021 - current</span><br>UI/UX Design training at Sri Vekateswara College</li>
+                                <li><span>2019 - 2021</span><br>Team lead at svcet</li>
+                                <li><span>2017 -2019</span><br>UI/UXDesign Executive at svcet</li>
+                                <li><span>2016 -2017</span><br>Internship at Salesforce Company</li>
+                            </ul></div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2024</span><br>Btech from svcet college</li>
+                                    <li><span>2020</span><br>12th from RRP College</li>
+                                    <li><span>2018</span><br>10th from High School Vir Oiyara</li>
+                                </ul></div>
+
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni sed aliquam? Dignissimos eum id illum 
+                        recusandae saepe architecto vel!</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni sed aliquam? Dignissimos eum id illum 
+                        recusandae saepe architecto vel!</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni sed aliquam? Dignissimos eum id illum 
+                        recusandae saepe architecto vel!</p>
+                        <a href="#">Learn more</a>
+                </div>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!----------------------portfolio--------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title>">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from the play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from the play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from the play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-----------------contact--------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> navnitk516@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7856946109</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/navnit.sharma.96556"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Navnitk20479259"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/navnitkumar516/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/navnit-kumar-88267124b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="D:/images/cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your Name" required>
+                    <input type="text" name="email" placeholder="your Email" required>
+                    <textarea name="message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright navnit.<i class="fa-sharp fa-solid fa-heart"></i>made by navnit Kumar</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
